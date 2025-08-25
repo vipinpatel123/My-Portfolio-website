@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Vipin</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Kalam", cursive;
+        padding: 20px;
+        text-align: center;
+      }
+      h1 {
+        color: rgb(170, 107, 228);
+        margin-bottom: 20px;
+      }
+      form input,
+      form textarea {
+        width: 50%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 4px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: rgb(170, 107, 228);
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 4px;
+        text-align: left;
+      }
+      button:hover {
+        background-color: rgb(144, 81, 210);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p><strong>Email:</strong>vipinpatel882004@gamil.com</p>
+    <p><strong>Phone:</strong> +91-7898420120</p>
+    <p>
+      <strong>LinkedIn:</strong>
+      <a href="https://linkedin.com/in/vipinpatel882004" target="_blank"
+        >linkedin.com/in/vipin patel</a
+      >
+    </p>
+    <p>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/vipinpatel123" target="_blank"
+        >github.com/vipinpatel123</a
+      >
+    </p>
+
+    <form
+      action="mailto:vipinpatel882004@gamil.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+    </form>
+    <button type="submit">Send</button>
+  </body>
+</html>
